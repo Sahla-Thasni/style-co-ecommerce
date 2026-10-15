@@ -1,0 +1,18 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Django database
+server/db.sqlite3
+
+# Python
+server/venv/
+server/.venv/
+server/__pycache__/
+*.pyc
+
+# Frontend dependencies and builds
+client/node_modules/
+client/dist/
